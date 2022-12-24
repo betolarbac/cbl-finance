@@ -1,0 +1,22 @@
+.sidebar{
+  max-width: 287px;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+
+  h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+
+    margin-left: 8px;
+    color: #A0A4A9;
+  }
+}
