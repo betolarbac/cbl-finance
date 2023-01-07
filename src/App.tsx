@@ -1,11 +1,15 @@
-import { Sidebar } from "./components/sidebar/sidebar"
-
+import { Sidebar } from "./components/sidebar/sidebar";
+import { Dashboard } from "./pages/dashboard";
+import styles from "./global.module.scss"
 
 function App() {
-
   return (
-   <Sidebar />
-  )
+    <div className={styles.global}>
+      <Sidebar />
+      <Dashboard />
+    </div>
+
+  );
 }
 
-export default App
+export default App;

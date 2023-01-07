@@ -1,12 +1,20 @@
-.sidebar{
+.sidebar {
   max-width: 287px;
   width: 100%;
+  height: 100%;
+  position: fixed;
+
+  background-color: #121b28;
+
+  padding: 26px 0;
+
+  grid-area: sidebar;
 }
 
 .logo {
   display: flex;
   align-items: center;
-
+  margin-bottom: 50px;
   justify-content: center;
 
   h1 {
@@ -17,6 +25,36 @@
     line-height: 27px;
 
     margin-left: 8px;
-    color: #A0A4A9;
+    color: #a0a4a9;
+  }
+}
+
+.selectWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.select {
+  display: flex;
+  align-items: baseline;
+
+  padding: 15px 86px 15px 16px;
+  border-radius: 12px;
+
+  background-color: #ffff;
+  text-decoration: none;
+
+  span {
+    margin-left: 8px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    letter-spacing: 0.02em;
+
+    color: #121b28;
   }
 }
