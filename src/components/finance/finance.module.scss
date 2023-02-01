@@ -1,0 +1,33 @@
+.finance {
+  display: flex;
+  gap: 3.5em;
+  margin-top: 2em;
+}
+
+.financeWrapper {
+  padding: 0.5em;
+
+  h2 {
+    margin: 0.5em 0;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 34px;
+
+    letter-spacing: 0.02em;
+
+    color: #121b28;
+  }
+
+  p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+
+    color: #121b28;
+  }
+}
